@@ -28,6 +28,7 @@
     "exec": "^0.2.1",
     "kue": "^0.11.5",
     "say.js": "^1.2.0",
+    "promised-mongo": "git+https://github.com/mindeavor/promised-mongo",
     "socket.io": "file:lib/arctic_modules/socket.io",
     "socket.io-adapter": "file:lib/arctic_modules/socket.io-adapter",
     "socket.io-client": "file:lib/arctic_modules/socket.io-client"
