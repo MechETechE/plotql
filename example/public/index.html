@@ -10,7 +10,8 @@
 <script src="socket.io/socket.io.js"></script>
 <script>
   var socket = io(window.location.host);
-  socket.on('chat', function (data) {
+  socket.on('CREATE_USER', function (data) {
+
     document.getElementById("tbr").innerHTML = JSON.stringify(data)
   });
 
